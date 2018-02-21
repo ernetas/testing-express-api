@@ -26,3 +26,26 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# ernestas
+# Terraform
+# ----------
+*.terraform/
+*.box
+*.tfplan
+*.tfstate
+*.tfstate.backup
+
+# macOS stuff
+# ----------
+*.DS_Store
+
+# Packer stuff
+# ----------
+*.box
+*.log
+packer_cache/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.yml

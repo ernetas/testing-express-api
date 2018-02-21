@@ -1,0 +1,10 @@
+packer
+terraform
+.git
+.gitignore
+docker-compose.*.yml
+Dockerfile
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.git
+.gitignore
